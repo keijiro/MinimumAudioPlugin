@@ -15,3 +15,6 @@ xcuserdata
 
 /Plugin/*.o
 /Plugin/*.so
+/Plugin/Debug/
+/Plugin/x64/
+/Plugin/.vs/
