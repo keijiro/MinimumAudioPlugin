@@ -1,0 +1,17 @@
+*.swp
+
+.DS_Store
+Desktop.ini
+Lasp.unitypackage
+
+/Library/
+/Temp/
+
+/Plugin/VisualStudio/.vs
+/Plugin/VisualStudio/x64
+/Plugin/VisualStudio/*.user
+
+xcuserdata
+
+/Plugin/*.o
+/Plugin/*.so
