@@ -1,7 +1,3 @@
-#ifdef _MSC_VER
-#define _CRT_SECURE_NO_WARNINGS
-#endif
-
 #include "AudioPluginInterface.h"
 #include <cmath>
 #include <cstring>
