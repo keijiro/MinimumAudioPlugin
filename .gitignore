@@ -2,7 +2,6 @@
 
 .DS_Store
 Desktop.ini
-Lasp.unitypackage
 
 /Library/
 /Temp/
@@ -13,5 +12,5 @@ Lasp.unitypackage
 
 xcuserdata
 
-/Plugin/*.o
-/Plugin/*.so
+/Plugin/Linux/*.o
+/Plugin/Linux/*.so
