@@ -100,8 +100,8 @@ namespace
     {
         auto& p1 = s_parameters[0];
 
-        strncpy_s(p1.name, sizeof(p1.name), "Frequency", sizeof(p1.name));
-        strncpy_s(p1.unit, sizeof(p1.unit), "Hz", sizeof(p1.unit));
+        strncpy(p1.name, "Frequency", sizeof(p1.name));
+        strncpy(p1.unit, "Hz", sizeof(p1.unit));
         p1.description = "Frequency of oscillation.";
         p1.min = 1;
         p1.max = 10000;
@@ -111,8 +111,8 @@ namespace
 
         auto& p2 = s_parameters[1];
 
-        strncpy_s(p2.name, sizeof(p2.name), "Amplitude", sizeof(p2.name));
-        strncpy_s(p2.unit, sizeof(p2.unit), "dB", sizeof(p2.unit));
+        strncpy(p2.name, "Amplitude", sizeof(p2.name));
+        strncpy(p2.unit, "dB", sizeof(p2.unit));
         p2.description = "Amplitude of output signal.";
         p2.min = -300;
         p2.max = 0;
@@ -126,7 +126,7 @@ namespace
         def.paramstructsize = sizeof(UnityAudioParameterDefinition);
         def.apiversion = UNITY_AUDIO_PLUGIN_API_VERSION;
 
-        strncpy_s(def.name, sizeof(def.name), "Sine Oscillator", sizeof(def.name));
+        strncpy(def.name, "Sine Oscillator", sizeof(def.name));
         def.pluginversion = 0x010000;
         def.channels = 1;
         def.numparameters = 2;

@@ -1,7 +1,7 @@
-SRCS=PluginEntry.cpp
+SRCS=../PluginEntry.cpp
 OBJS=$(SRCS:.cpp=.o)
 OUTPUT=libSinOsc.so
-CXXFLAGS=-I. -O2 -fPIC -Wall -std=c++11
+CXXFLAGS=-I.. -O2 -fPIC -Wall -std=c++11
 LDFLAGS=-shared -rdynamic -fPIC
 CXX=g++
 
@@ -14,4 +14,4 @@ $(OUTPUT): $(OBJS)
 	$(CXX) $(LDFLAGS) -o $(OUTPUT) $(OBJS)
 
 .cpp.o:
-	$(CXX) $(CXXFLAGS) -c $<
+	$(CXX) $(CXXFLAGS) -c -o $@ $<

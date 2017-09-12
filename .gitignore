@@ -12,5 +12,5 @@ Desktop.ini
 
 xcuserdata
 
-/Plugin/Linux/*.o
+/Plugin/*.o
 /Plugin/Linux/*.so
