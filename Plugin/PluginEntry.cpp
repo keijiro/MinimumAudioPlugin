@@ -148,8 +148,3 @@ extern "C" UNITY_AUDIODSP_EXPORT_API int UnityGetAudioEffectDefinitions(
     *definitionptr = s_effectList;
     return 1;
 }
-
-extern "C" UNITY_AUDIODSP_EXPORT_API bool InitPlugin()
-{
-    return true;
-}
