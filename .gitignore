@@ -14,3 +14,5 @@ xcuserdata
 
 /Plugin/*.o
 /Plugin/Linux/*.so
+Plugin/Android/obj/
+Plugin/Android/libs/
