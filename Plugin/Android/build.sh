@@ -2,7 +2,7 @@
 echo ""
 echo "Compiling NativeCode.c..."
 $ANDROID_NDK_ROOT/ndk-build NDK_PROJECT_PATH=. NDK_APPLICATION_MK=Application.mk $*
-mv libs/armeabi/libnative.so ..
+mv libs/armeabi/libAudioPluginSinOsc.so ..
 
 echo ""
 echo "Cleaning up / removing build folders..."  #optional..
